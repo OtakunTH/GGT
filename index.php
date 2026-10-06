@@ -8,7 +8,8 @@
         :root {
             --primary-color: #58fd2b;
             --primary-hover: #32cfaa;
-            --bg-color: #137c60; 
+            --bg-color: #e7e9e9; 
+            --input-bg: #0f172a;  
             --card-bg: #1e293b;
             --text-color: #f8fafc;
             --text-muted: #94a3b8;
@@ -59,7 +60,7 @@
             padding: 0.75rem;
             border: 1px solid #334155;
             border-radius: 0.55rem;
-            background-color: var(--bg-color); /* ใช้ตัวแปรสีเขียวเข้มเดียวกัน เพื่อความกลมกลืน */
+            background-color: var(--input-bg); /* ใช้สีเข้มเฉพาะช่องกรอก เพื่อให้เห็นตัวหนังสือชัดเจน */
             color: var(--text-color);
             font-size: 1rem;
             box-sizing: border-box;
