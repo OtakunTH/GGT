@@ -8,7 +8,7 @@
         :root {
             --primary-color: #58fd2b;
             --primary-hover: #32cfaa;
-            --bg-color: #0f172a;
+            --bg-color: #137c60; 
             --card-bg: #1e293b;
             --text-color: #f8fafc;
             --text-muted: #94a3b8;
@@ -59,7 +59,7 @@
             padding: 0.75rem;
             border: 1px solid #334155;
             border-radius: 0.55rem;
-            background-color: #0f172a;
+            background-color: var(--bg-color); /* ใช้ตัวแปรสีเขียวเข้มเดียวกัน เพื่อความกลมกลืน */
             color: var(--text-color);
             font-size: 1rem;
             box-sizing: border-box;
