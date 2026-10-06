@@ -6,8 +6,8 @@
     <title>Contact Form</title>
     <style>
         :root {
-            --primary-color: #1529ff;
-            --primary-hover: #0815ff;
+            --primary-color: #58fd2b;
+            --primary-hover: #32cfaa;
             --bg-color: #0f172a;
             --card-bg: #1e293b;
             --text-color: #f8fafc;
